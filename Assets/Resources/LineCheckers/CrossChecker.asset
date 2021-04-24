@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dd257e8f11b3a5448477e378125565e, type: 3}
+  m_Name: CrossChecker
+  m_EditorClassIdentifier: 
+  crossNumber: 3
+  crossPrefab: {fileID: 7046888441931919180, guid: 51e45facebd64a045b78a433200d93b1,
+    type: 3}

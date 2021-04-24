@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e5efaa28b9677a4cbc3ab49d5bd0772, type: 3}
+  m_Name: Demeter
+  m_EditorClassIdentifier: 
+  managers:
+  - {fileID: 11400000, guid: a709eee3d178cf74c85f2f090566bfb4, type: 2}
+  - {fileID: 11400000, guid: 1108c8d51a991484c8a8154cb56d92ab, type: 2}
+  - {fileID: 11400000, guid: 8c8ff7eea81d479448192a2e6b848e14, type: 2}
+  - {fileID: 11400000, guid: 77c26064cc35ef148bcf70e231b13309, type: 2}
+  - {fileID: 11400000, guid: 659414e3c11efb641b9c236e267f56df, type: 2}
+  blockUI: {fileID: 9158457464318445623, guid: 4e59c7e7225e06b458c4e74c672e86e5, type: 3}
+  cellPrefab: {fileID: 5285295725019728230, guid: 82869512aa2cbed46b15438a06bf30fb,
+    type: 3}
+  blockPrefab: {fileID: -1157935330093231750, guid: 375b2b17c0e99504891e1d69c05cfdb9,
+    type: 3}
+  colors: {fileID: 11400000, guid: 592d7d6aaccccdb4fa396a3104bc52de, type: 2}
+  gameState: {fileID: 0}
+  portraitSprite: {fileID: 21300000, guid: 5d3c15d8935accf4d8585674b887d52e, type: 3}
+  godsName: Demeter
+  startTickDelay: 0.45
+  minTickDelay: 0.1
+  width: 6
+  height: 16
+  maxFigureHeight: 3
+  startLevel: 1
+  scoreToLevelUp: 500
+  tickChangeWithLevel: 0.005
+  targetScore: 1000
+  actionsToWin: 1
+  description: The goddes of the earth captures the bottom lane every five moves
+    if it is full and does not use it in time. Unblock blocked blocks by collecting
+    a combination right above them! . Try to collect 10000 against him!
+  descriptionImages: []

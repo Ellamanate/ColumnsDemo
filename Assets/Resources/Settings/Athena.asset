@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e5efaa28b9677a4cbc3ab49d5bd0772, type: 3}
+  m_Name: Athena
+  m_EditorClassIdentifier: 
+  managers:
+  - {fileID: 11400000, guid: a709eee3d178cf74c85f2f090566bfb4, type: 2}
+  - {fileID: 11400000, guid: 1108c8d51a991484c8a8154cb56d92ab, type: 2}
+  - {fileID: 11400000, guid: d536c25bda67a7e4fb1ec3d68061bafb, type: 2}
+  - {fileID: 11400000, guid: a669fc6c81a44474d92cc57e3dbbe6f2, type: 2}
+  - {fileID: 11400000, guid: 659414e3c11efb641b9c236e267f56df, type: 2}
+  blockUI: {fileID: 9158457464318445623, guid: 4e59c7e7225e06b458c4e74c672e86e5, type: 3}
+  cellPrefab: {fileID: 5285295725019728230, guid: 82869512aa2cbed46b15438a06bf30fb,
+    type: 3}
+  blockPrefab: {fileID: -1157935330093231750, guid: 375b2b17c0e99504891e1d69c05cfdb9,
+    type: 3}
+  colors: {fileID: 11400000, guid: 592d7d6aaccccdb4fa396a3104bc52de, type: 2}
+  gameState: {fileID: 11400000, guid: ecc4f335fc563db40be36fd9b45f034a, type: 2}
+  portraitSprite: {fileID: 21300000, guid: 0dc04b5bcbb775e42b613f72bbca87bd, type: 3}
+  godsName: Athena
+  startTickDelay: 0.45
+  minTickDelay: 0.1
+  width: 6
+  height: 16
+  maxFigureHeight: 3
+  startLevel: 1
+  scoreToLevelUp: 500
+  tickChangeWithLevel: 0.005
+  targetScore: 0
+  actionsToWin: 1
+  description: Athena is the goddess of tactics. It can only be defeated by collecting
+    three combinations of blocks in the form of a cross
+  descriptionImages:
+  - {fileID: 21300000, guid: a08bac77b99226243b4d7a4784d3062d, type: 3}
+  - {fileID: 21300000, guid: ae2fa251ae610a740badd654a8ed99f2, type: 3}
